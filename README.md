@@ -1,1 +1,2 @@
 # linux
+studying about linux
