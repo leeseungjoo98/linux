@@ -1,0 +1,58 @@
+date
+who
+ls
+clear
+passwd
+man date
+pwd
+mkdir
+cd
+ls -s
+ls -a
+ls -l
+ls -asl
+cd ~
+cd ..
+cat
+cat > cs1.txt
+more cs1.txt
+head cs1.txt
+tail cs1.txt
+wc cs1.txt
+cp cs1.txt cs2.txt
+cp cs1.txt /tmp
+mv cs2.txt cs3.txt
+mv cs3.txt /tmp
+rm cs1.txt
+rmdir test
+rm -r test
+ls -sl
+ls -sl cs1.txt
+chmod 664 cs1.txt
+chmod g+w cs1.txt
+chmod o+r , o+w cs1.txt
+who
+who > names.txt
+cat > list1.txt
+cat > list2.txt
+cat list1.txt list2.txt > list3.txt
+wc < list1.txt
+sort < list1.txt
+date >> names.txt
+cat < cs1.txt
+cat sort.txt | head
+echo $TERM
+echo $PATH
+env
+nano .profile
+(sleep 100; echo hello)
+(sleep 100; echo hello)&
+jobs
+jobs %1
+fg
+fg %1
+find . -name "sort*"
+find . -name "sort*" -exec ls -l {} \;
+find . -name "sort*" > text.txt
+find . -name "sort*" -print > find.txt &
+
